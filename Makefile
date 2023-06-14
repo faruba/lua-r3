@@ -1,6 +1,6 @@
 UNAME ?= $(shell uname)
 R3_CONFIGURE_OPT ?=
-LUA_INCLUDE_DIR ?= /usr/local/include
+LUA_INCLUDE_DIR ?= ../../../src/skynet/3rd/lua
 
 CFLAGS := -O3 -g -Wall -fpic -I$(LUA_INCLUDE_DIR)
 
